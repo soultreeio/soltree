@@ -1,0 +1,31 @@
+body {
+  overflow-y: scroll;
+  font-family: $font-family-sans-serif;
+  font-size: $font-size-base;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: $line-height-base;
+  color: $main_font_color;
+}
+
+#app {
+  transition:background 0.5s ease;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+a:-webkit-any-link {
+  text-decoration: none!important;
+  color: #282828 !important;
+  cursor: pointer;
+}
+a:hover {
+  color: #42b983 !important;
+}
