@@ -1,0 +1,82 @@
+
+.menu {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+}
+
+.leftmenu {
+  display: flex;
+  flex: 1 0 25%;
+}
+
+.rightmenu {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1 0 25%;
+}
+
+.logo {
+}
+
+.md-drawer {
+  background-color: white;
+}
+
+.custom-menu-drawer {
+  width: 100%;
+  max-width: 100vw;
+}
+
+.custom-md-menu {
+  @media screen and (min-width: $break-small+1) {
+    display: none;
+  }
+}
+
+.custom-menu {
+  margin-right: 16px;
+  @media screen and (max-width: $break-small) {
+    display: none;
+  }
+}
+
+input[type="text"] {
+  padding-left:10px;
+  @media screen and (max-width: $break-small) {
+    font-size:16px;
+  }
+  @media screen and (min-width: $break-small) and (max-width: $break-medium) {
+    font-size:18px;
+  }
+  @media screen and (min-width: $break-medium) {
+    font-size:20px;
+  }
+}
+
+.custom-input-text {
+  margin: 0 10px 0 25px;
+  flex: 1;
+}
+
+.custom-menu-divider {
+  background-color: rgba(0,0,0,.12);
+}
+
+.custom-menu-list {
+  margin-left: 10px;
+}
+
+.custom-md-list-item {
+  @media screen and (max-width: $break-small) {
+    font-size:32px;
+  }
+  @media screen and (min-width: $break-small) and (max-width: $break-medium) {
+    font-size:36px;
+  }
+  @media screen and (min-width: $break-medium) {
+    font-size:40px;
+  }
+}
