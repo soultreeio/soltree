@@ -1,0 +1,2 @@
+# soltree
+Decentralized Crowdfunding Application
