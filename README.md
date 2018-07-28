@@ -1,2 +1,2 @@
-# soltree
+# soultree.io
 Decentralized Crowdfunding Application
